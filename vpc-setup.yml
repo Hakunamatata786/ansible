@@ -32,4 +32,4 @@
       register: pubsub1_out
     
     - debug:
-      var: pubsub1_out
+        var: pubsub1_out
