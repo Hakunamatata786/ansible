@@ -1,3 +1,4 @@
+---
 - hosts: localhost
   connection: 
   gather_facts: False
