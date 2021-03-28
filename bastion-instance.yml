@@ -58,7 +58,8 @@
         vpc_subnet_id: "{{pubsub1id}}"
       register: bastionHost_out
 
-    - name: Appens Bastion SG ID to vpc_output_vars
+    - name: Append Bastion SG ID to vpc_output_vars
       lineinfile:
         path: vars/vpc_output_vars
-        line: "bastionSGid: {{BastionSG_out.group_id}}"
+        regexp: '^bastionSGid:'
+        line: "BastionSGid: {{BastionSG_out.group_id}}"
