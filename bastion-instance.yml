@@ -61,5 +61,5 @@
     - name: Append Bastion SG ID to vpc_output_vars
       lineinfile:
         path: vars/vpc_output_vars
-        regexp: '^bastionSGid:'
+        regexp: '^BastionSGid:'
         line: "BastionSGid: {{BastionSG_out.group_id}}"
