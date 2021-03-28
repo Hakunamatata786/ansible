@@ -57,3 +57,8 @@
         group_id: "{{BastionSG_out.group_id}}"
         vpc_subnet_id: "{{pubsub1id}}"
       register: bastionHost_out
+
+    - name: Appens Bastion SG ID to vpc_output_vars
+      lineinfile:
+        path: vars/vpc_output_vars
+        line: "bastionSGid: {{BastionSG_out.group_id}}"
