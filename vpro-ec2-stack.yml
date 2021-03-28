@@ -87,7 +87,7 @@
         vpc_subnet_id: "{{privsub1id}}" 
       register: web01_out
 
-      - name: Creating tomcat app01
+    - name: Creating tomcat app01
       ec2:
         key_name: vprokey
         region: "{{region}}"
@@ -108,7 +108,7 @@
         vpc_subnet_id: "{{privsub1id}}" 
       register: app01_out
 
-      - name: Creating memcache mc01 
+    - name: Creating memcache mc01 
       ec2:
         key_name: vprokey
         region: "{{region}}"
@@ -129,7 +129,7 @@
         vpc_subnet_id: "{{privsub1id}}" 
       register: mc01_out
 
-      - name: Creating RabbitMQ rmq01
+    - name: Creating RabbitMQ rmq01
       ec2:
         key_name: vprokey
         region: "{{region}}"
@@ -150,7 +150,7 @@
         vpc_subnet_id: "{{privsub1id}}" 
       register: rmq01_out
 
-      - name: Creating Mysql db01
+    - name: Creating Mysql db01
       ec2:
         key_name: vprokey
         region: "{{region}}"
@@ -171,7 +171,7 @@
         vpc_subnet_id: "{{privsub1id}}" 
       register: db01_out
 
-      - debug:
-          var: db01_out
+    - debug:
+        var: db01_out
 
       
