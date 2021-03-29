@@ -1,0 +1,169 @@
+2021-03-29 07:01:09,558 p=17087 u=ubuntu n=ansible | ERROR! the playbook: provision-stack/build.yml could not be found
+2021-03-29 07:01:21,554 p=17089 u=ubuntu n=ansible | PLAY [Ganerate artifact, copy artifact & sql file to files directory] ****************************************
+2021-03-29 07:01:21,568 p=17089 u=ubuntu n=ansible | TASK [Gathering Facts] ***************************************************************************************
+2021-03-29 07:01:21,582 p=17089 u=ubuntu n=ansible | fatal: [localhost]: FAILED! => {"msg": "Invalid become method specified, could not find matching plugin: 'yes'. Use `ansible-doc -t become -l` to list available plugins."}
+2021-03-29 07:01:21,584 p=17089 u=ubuntu n=ansible | PLAY RECAP ***************************************************************************************************
+2021-03-29 07:01:21,584 p=17089 u=ubuntu n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:02:07,617 p=17101 u=ubuntu n=ansible | PLAY [Ganerate artifact, copy artifact & sql file to files directory] ****************************************
+2021-03-29 07:02:07,630 p=17101 u=ubuntu n=ansible | TASK [Gathering Facts] ***************************************************************************************
+2021-03-29 07:02:07,644 p=17101 u=ubuntu n=ansible | fatal: [localhost]: FAILED! => {"msg": "Invalid become method specified, could not find matching plugin: 'yes'. Use `ansible-doc -t become -l` to list available plugins."}
+2021-03-29 07:02:07,647 p=17101 u=ubuntu n=ansible | PLAY RECAP ***************************************************************************************************
+2021-03-29 07:02:07,647 p=17101 u=ubuntu n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:06:57,431 p=17137 u=ubuntu n=ansible | PLAY [Ganerate artifact, copy artifact & sql file to files directory] ****************************************
+2021-03-29 07:06:57,444 p=17137 u=ubuntu n=ansible | TASK [Gathering Facts] ***************************************************************************************
+2021-03-29 07:06:57,458 p=17137 u=ubuntu n=ansible | fatal: [localhost]: FAILED! => {"msg": "Invalid become method specified, could not find matching plugin: 'yes'. Use `ansible-doc -t become -l` to list available plugins."}
+2021-03-29 07:06:57,460 p=17137 u=ubuntu n=ansible | PLAY RECAP ***************************************************************************************************
+2021-03-29 07:06:57,460 p=17137 u=ubuntu n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:07:12,761 p=17146 u=ubuntu n=ansible | PLAY [Ganerate artifact, copy artifact & sql file to files directory] ****************************************
+2021-03-29 07:07:12,774 p=17146 u=ubuntu n=ansible | TASK [Gathering Facts] ***************************************************************************************
+2021-03-29 07:07:12,788 p=17146 u=ubuntu n=ansible | fatal: [localhost]: FAILED! => {"msg": "Invalid become method specified, could not find matching plugin: 'yes'. Use `ansible-doc -t become -l` to list available plugins."}
+2021-03-29 07:07:12,790 p=17146 u=ubuntu n=ansible | PLAY RECAP ***************************************************************************************************
+2021-03-29 07:07:12,790 p=17146 u=ubuntu n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:14:38,687 p=18392 u=ubuntu n=ansible | PLAY [Ganerate artifact, copy artifact & sql file to files directory] ****************************************
+2021-03-29 07:14:38,703 p=18392 u=ubuntu n=ansible | TASK [Gathering Facts] ***************************************************************************************
+2021-03-29 07:14:38,717 p=18392 u=ubuntu n=ansible | fatal: [localhost]: FAILED! => {"msg": "Invalid become method specified, could not find matching plugin: 'yes'. Use `ansible-doc -t become -l` to list available plugins."}
+2021-03-29 07:14:38,719 p=18392 u=ubuntu n=ansible | PLAY RECAP ***************************************************************************************************
+2021-03-29 07:14:38,719 p=18392 u=ubuntu n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:15:42,349 p=18400 u=ubuntu n=ansible | PLAY [Ganerate artifact, copy artifact & sql file to files directory] ****************************************
+2021-03-29 07:15:42,363 p=18400 u=ubuntu n=ansible | TASK [Gathering Facts] ***************************************************************************************
+2021-03-29 07:15:42,377 p=18400 u=ubuntu n=ansible | fatal: [localhost]: FAILED! => {"msg": "Invalid become method specified, could not find matching plugin: 'yes'. Use `ansible-doc -t become -l` to list available plugins."}
+2021-03-29 07:15:42,380 p=18400 u=ubuntu n=ansible | PLAY RECAP ***************************************************************************************************
+2021-03-29 07:15:42,380 p=18400 u=ubuntu n=ansible | localhost                  : ok=0    changed=0    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:16:04,722 p=18419 u=ubuntu n=ansible | PLAY [Ganerate artifact, copy artifact & sql file to files directory] ****************************************
+2021-03-29 07:16:04,735 p=18419 u=ubuntu n=ansible | TASK [Gathering Facts] ***************************************************************************************
+2021-03-29 07:16:05,918 p=18419 u=ubuntu n=ansible | ok: [localhost]
+2021-03-29 07:16:05,933 p=18419 u=ubuntu n=ansible | TASK [Install jdk, maven, git] *******************************************************************************
+2021-03-29 07:16:08,648 p=18419 u=ubuntu n=ansible | ok: [localhost] => (item=git)
+2021-03-29 07:16:10,404 p=18419 u=ubuntu n=ansible | ok: [localhost] => (item=openjdk-8-jdk)
+2021-03-29 07:16:12,181 p=18419 u=ubuntu n=ansible | ok: [localhost] => (item=maven)
+2021-03-29 07:16:12,191 p=18419 u=ubuntu n=ansible | TASK [Clone source code from github] *************************************************************************
+2021-03-29 07:16:13,073 p=18419 u=ubuntu n=ansible | ok: [localhost]
+2021-03-29 07:16:13,085 p=18419 u=ubuntu n=ansible | TASK [mvn install command to build artifact] *****************************************************************
+2021-03-29 07:16:13,119 p=18419 u=ubuntu n=ansible | skipping: [localhost]
+2021-03-29 07:16:13,128 p=18419 u=ubuntu n=ansible | TASK [Copy artifacts to files directory] *********************************************************************
+2021-03-29 07:16:14,076 p=18419 u=ubuntu n=ansible | ok: [localhost] => (item=/home/ubuntu/ansible-aws-vpc/provision-stack/Vprofile-repo/target/vprofile-v2.war)
+2021-03-29 07:16:14,085 p=18419 u=ubuntu n=ansible | TASK [Copy SQL file to files directory] **********************************************************************
+2021-03-29 07:16:14,506 p=18419 u=ubuntu n=ansible | ok: [localhost]
+2021-03-29 07:16:14,521 p=18419 u=ubuntu n=ansible | PLAY RECAP ***************************************************************************************************
+2021-03-29 07:16:14,521 p=18419 u=ubuntu n=ansible | localhost                  : ok=5    changed=0    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2021-03-29 07:21:03,199 p=19518 u=ubuntu n=ansible | PLAY [Ganerate artifact, copy artifact & sql file to files directory] ****************************************
+2021-03-29 07:21:03,212 p=19518 u=ubuntu n=ansible | TASK [Gathering Facts] ***************************************************************************************
+2021-03-29 07:21:04,337 p=19518 u=ubuntu n=ansible | ok: [localhost]
+2021-03-29 07:21:04,351 p=19518 u=ubuntu n=ansible | TASK [Install jdk, maven, git] *******************************************************************************
+2021-03-29 07:21:10,749 p=19518 u=ubuntu n=ansible | changed: [localhost] => (item=git)
+2021-03-29 07:21:20,045 p=19518 u=ubuntu n=ansible | changed: [localhost] => (item=openjdk-8-jdk)
+2021-03-29 07:21:24,959 p=19518 u=ubuntu n=ansible | changed: [localhost] => (item=maven)
+2021-03-29 07:21:24,971 p=19518 u=ubuntu n=ansible | TASK [Clone source code from github] *************************************************************************
+2021-03-29 07:21:25,399 p=19518 u=ubuntu n=ansible | fatal: [localhost]: FAILED! => {"changed": false, "msg": "Failed to find required executable git in paths: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"}
+2021-03-29 07:21:25,402 p=19518 u=ubuntu n=ansible | PLAY RECAP ***************************************************************************************************
+2021-03-29 07:21:25,402 p=19518 u=ubuntu n=ansible | localhost                  : ok=2    changed=1    unreachable=0    failed=1    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:22:59,017 p=20924 u=ubuntu n=ansible | PLAY [Ganerate artifact, copy artifact & sql file to files directory] ****************************************
+2021-03-29 07:22:59,039 p=20924 u=ubuntu n=ansible | TASK [Gathering Facts] ***************************************************************************************
+2021-03-29 07:23:00,256 p=20924 u=ubuntu n=ansible | ok: [localhost]
+2021-03-29 07:23:00,270 p=20924 u=ubuntu n=ansible | TASK [Install jdk, maven, git] *******************************************************************************
+2021-03-29 07:23:02,255 p=20924 u=ubuntu n=ansible | ok: [localhost] => (item=git)
+2021-03-29 07:23:07,726 p=20924 u=ubuntu n=ansible | changed: [localhost] => (item=openjdk-8-jdk)
+2021-03-29 07:23:12,887 p=20924 u=ubuntu n=ansible | changed: [localhost] => (item=maven)
+2021-03-29 07:23:12,896 p=20924 u=ubuntu n=ansible | TASK [Clone source code from github] *************************************************************************
+2021-03-29 07:23:13,657 p=20924 u=ubuntu n=ansible | ok: [localhost]
+2021-03-29 07:23:13,668 p=20924 u=ubuntu n=ansible | TASK [mvn install command to build artifact] *****************************************************************
+2021-03-29 07:23:13,700 p=20924 u=ubuntu n=ansible | skipping: [localhost]
+2021-03-29 07:23:13,709 p=20924 u=ubuntu n=ansible | TASK [Copy artifacts to files directory] *********************************************************************
+2021-03-29 07:23:14,924 p=20924 u=ubuntu n=ansible | ok: [localhost] => (item=/home/ubuntu/ansible-aws-vpc/provision-stack/Vprofile-repo/target/vprofile-v2.war)
+2021-03-29 07:23:14,934 p=20924 u=ubuntu n=ansible | TASK [Copy SQL file to files directory] **********************************************************************
+2021-03-29 07:23:15,354 p=20924 u=ubuntu n=ansible | ok: [localhost]
+2021-03-29 07:23:15,369 p=20924 u=ubuntu n=ansible | PLAY RECAP ***************************************************************************************************
+2021-03-29 07:23:15,370 p=20924 u=ubuntu n=ansible | localhost                  : ok=5    changed=1    unreachable=0    failed=0    skipped=1    rescued=0    ignored=0   
+2021-03-29 07:30:06,017 p=22243 u=ubuntu n=ansible | ERROR! 'host' is not a valid attribute for a Play
+
+The error appears to be in '/home/ubuntu/ansible-aws-vpc/provision-stack/set_host_ip_map.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- name: Set host to IP mapping in /etc/hosts file of all the instances in the stack
+  ^ here
+
+2021-03-29 07:31:25,369 p=22259 u=ubuntu n=ansible | PLAY [Set host to IP mapping in /etc/hosts file of all the instances in the stack] ***************************
+2021-03-29 07:31:25,382 p=22259 u=ubuntu n=ansible | TASK [Gathering Facts] ***************************************************************************************
+2021-03-29 07:31:26,604 p=22259 u=ubuntu n=ansible | fatal: [cntl]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: Could not resolve hostname cntl: Temporary failure in name resolution", "unreachable": true}
+2021-03-29 07:31:26,675 p=22259 u=ubuntu n=ansible | fatal: [cntl01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ubuntu@127.0.0.1: Permission denied (publickey).", "unreachable": true}
+2021-03-29 07:31:27,623 p=22259 u=ubuntu n=ansible | ok: [web01]
+2021-03-29 07:31:28,060 p=22259 u=ubuntu n=ansible | ok: [rmq01]
+2021-03-29 07:31:28,177 p=22259 u=ubuntu n=ansible | ok: [app01]
+2021-03-29 07:31:29,204 p=22259 u=ubuntu n=ansible | ok: [db01]
+2021-03-29 07:31:29,232 p=22259 u=ubuntu n=ansible | ok: [mc01]
+2021-03-29 07:31:29,247 p=22259 u=ubuntu n=ansible | TASK [Import VPC setup file for all the hosts] ***************************************************************
+2021-03-29 07:31:29,300 p=22259 u=ubuntu n=ansible | ok: [web01]
+2021-03-29 07:31:29,320 p=22259 u=ubuntu n=ansible | ok: [app01]
+2021-03-29 07:31:29,344 p=22259 u=ubuntu n=ansible | ok: [rmq01]
+2021-03-29 07:31:29,346 p=22259 u=ubuntu n=ansible | ok: [mc01]
+2021-03-29 07:31:29,355 p=22259 u=ubuntu n=ansible | ok: [db01]
+2021-03-29 07:31:29,363 p=22259 u=ubuntu n=ansible | TASK [Update /etc/hosts/ files for all the instances] ********************************************************
+2021-03-29 07:31:30,215 p=22259 u=ubuntu n=ansible | changed: [mc01]
+2021-03-29 07:31:30,220 p=22259 u=ubuntu n=ansible | changed: [db01]
+2021-03-29 07:31:30,224 p=22259 u=ubuntu n=ansible | changed: [rmq01]
+2021-03-29 07:31:30,243 p=22259 u=ubuntu n=ansible | changed: [web01]
+2021-03-29 07:31:30,248 p=22259 u=ubuntu n=ansible | changed: [app01]
+2021-03-29 07:31:30,262 p=22259 u=ubuntu n=ansible | PLAY RECAP ***************************************************************************************************
+2021-03-29 07:31:30,262 p=22259 u=ubuntu n=ansible | app01                      : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:31:30,262 p=22259 u=ubuntu n=ansible | cntl                       : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:31:30,263 p=22259 u=ubuntu n=ansible | cntl01                     : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:31:30,263 p=22259 u=ubuntu n=ansible | db01                       : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:31:30,263 p=22259 u=ubuntu n=ansible | mc01                       : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:31:30,263 p=22259 u=ubuntu n=ansible | rmq01                      : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:31:30,263 p=22259 u=ubuntu n=ansible | web01                      : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:37:39,502 p=22480 u=ubuntu n=ansible | PLAY [Set host to IP mapping in /etc/hosts file of all the instances in the stack] ***************************
+2021-03-29 07:37:39,516 p=22480 u=ubuntu n=ansible | TASK [Gathering Facts] ***************************************************************************************
+2021-03-29 07:37:40,725 p=22480 u=ubuntu n=ansible | fatal: [cntl]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ubuntu@127.0.0.1: Permission denied (publickey).", "unreachable": true}
+2021-03-29 07:38:25,636 p=22480 u=ubuntu n=ansible | fatal: [web01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.20.4.210 port 22: Connection timed out", "unreachable": true}
+2021-03-29 07:38:25,657 p=22480 u=ubuntu n=ansible | fatal: [app01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.20.4.50 port 22: Connection timed out", "unreachable": true}
+2021-03-29 07:38:25,677 p=22480 u=ubuntu n=ansible | fatal: [rmq01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.20.4.43 port 22: Connection timed out", "unreachable": true}
+2021-03-29 07:38:25,702 p=22480 u=ubuntu n=ansible | fatal: [mc01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.20.4.47 port 22: Connection timed out", "unreachable": true}
+2021-03-29 07:38:26,773 p=22480 u=ubuntu n=ansible | fatal: [db01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.20.4.221 port 22: Connection timed out", "unreachable": true}
+2021-03-29 07:38:26,775 p=22480 u=ubuntu n=ansible | PLAY RECAP ***************************************************************************************************
+2021-03-29 07:38:26,775 p=22480 u=ubuntu n=ansible | app01                      : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:38:26,776 p=22480 u=ubuntu n=ansible | cntl                       : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:38:26,776 p=22480 u=ubuntu n=ansible | db01                       : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:38:26,776 p=22480 u=ubuntu n=ansible | mc01                       : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:38:26,776 p=22480 u=ubuntu n=ansible | rmq01                      : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:38:26,776 p=22480 u=ubuntu n=ansible | web01                      : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:39:10,316 p=22534 u=ubuntu n=ansible | PLAY [Set host to IP mapping in /etc/hosts file of all the instances in the stack] ***************************
+2021-03-29 07:39:10,330 p=22534 u=ubuntu n=ansible | TASK [Gathering Facts] ***************************************************************************************
+2021-03-29 07:39:11,756 p=22534 u=ubuntu n=ansible | ok: [cntl]
+2021-03-29 07:39:56,411 p=22534 u=ubuntu n=ansible | fatal: [web01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.20.4.210 port 22: Connection timed out", "unreachable": true}
+2021-03-29 07:39:56,444 p=22534 u=ubuntu n=ansible | fatal: [app01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.20.4.50 port 22: Connection timed out", "unreachable": true}
+2021-03-29 07:39:56,463 p=22534 u=ubuntu n=ansible | fatal: [rmq01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.20.4.43 port 22: Connection timed out", "unreachable": true}
+2021-03-29 07:39:56,483 p=22534 u=ubuntu n=ansible | fatal: [mc01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.20.4.47 port 22: Connection timed out", "unreachable": true}
+2021-03-29 07:39:57,794 p=22534 u=ubuntu n=ansible | fatal: [db01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.20.4.221 port 22: Connection timed out", "unreachable": true}
+2021-03-29 07:39:57,810 p=22534 u=ubuntu n=ansible | TASK [Import VPC setup file for all the hosts] ***************************************************************
+2021-03-29 07:39:57,825 p=22534 u=ubuntu n=ansible | ok: [cntl]
+2021-03-29 07:39:57,834 p=22534 u=ubuntu n=ansible | TASK [Update /etc/hosts/ files for all the instances] ********************************************************
+2021-03-29 07:39:58,241 p=22534 u=ubuntu n=ansible | changed: [cntl]
+2021-03-29 07:39:58,257 p=22534 u=ubuntu n=ansible | PLAY RECAP ***************************************************************************************************
+2021-03-29 07:39:58,257 p=22534 u=ubuntu n=ansible | app01                      : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:39:58,257 p=22534 u=ubuntu n=ansible | cntl                       : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:39:58,257 p=22534 u=ubuntu n=ansible | db01                       : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:39:58,258 p=22534 u=ubuntu n=ansible | mc01                       : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:39:58,258 p=22534 u=ubuntu n=ansible | rmq01                      : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:39:58,258 p=22534 u=ubuntu n=ansible | web01                      : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:43:03,809 p=22711 u=ubuntu n=ansible | PLAY [Set host to IP mapping in /etc/hosts file of all the instances in the stack] ***************************
+2021-03-29 07:43:03,822 p=22711 u=ubuntu n=ansible | TASK [Gathering Facts] ***************************************************************************************
+2021-03-29 07:43:05,239 p=22711 u=ubuntu n=ansible | ok: [cntl]
+2021-03-29 07:43:49,898 p=22711 u=ubuntu n=ansible | fatal: [web01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.20.4.210 port 22: Connection timed out", "unreachable": true}
+2021-03-29 07:43:49,928 p=22711 u=ubuntu n=ansible | fatal: [app01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.20.4.50 port 22: Connection timed out", "unreachable": true}
+2021-03-29 07:43:49,953 p=22711 u=ubuntu n=ansible | fatal: [rmq01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.20.4.43 port 22: Connection timed out", "unreachable": true}
+2021-03-29 07:43:49,972 p=22711 u=ubuntu n=ansible | fatal: [mc01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.20.4.47 port 22: Connection timed out", "unreachable": true}
+2021-03-29 07:43:51,278 p=22711 u=ubuntu n=ansible | fatal: [db01]: UNREACHABLE! => {"changed": false, "msg": "Failed to connect to the host via ssh: ssh: connect to host 172.20.4.221 port 22: Connection timed out", "unreachable": true}
+2021-03-29 07:43:51,292 p=22711 u=ubuntu n=ansible | TASK [Import VPC setup file for all the hosts] ***************************************************************
+2021-03-29 07:43:51,308 p=22711 u=ubuntu n=ansible | ok: [cntl]
+2021-03-29 07:43:51,315 p=22711 u=ubuntu n=ansible | TASK [Update /etc/hosts/ files for all the instances] ********************************************************
+2021-03-29 07:43:51,711 p=22711 u=ubuntu n=ansible | changed: [cntl]
+2021-03-29 07:43:51,726 p=22711 u=ubuntu n=ansible | PLAY RECAP ***************************************************************************************************
+2021-03-29 07:43:51,726 p=22711 u=ubuntu n=ansible | app01                      : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:43:51,727 p=22711 u=ubuntu n=ansible | cntl                       : ok=3    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:43:51,727 p=22711 u=ubuntu n=ansible | db01                       : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:43:51,727 p=22711 u=ubuntu n=ansible | mc01                       : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:43:51,727 p=22711 u=ubuntu n=ansible | rmq01                      : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
+2021-03-29 07:43:51,727 p=22711 u=ubuntu n=ansible | web01                      : ok=0    changed=0    unreachable=1    failed=0    skipped=0    rescued=0    ignored=0   
