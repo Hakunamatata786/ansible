@@ -24,7 +24,7 @@
       command: "mvn install"
       args:
         chdir: Vprofile-repo
-        when: git_status.changed
+      when: git_status.changed
       register: mvn_info
 
     - name: Copy artifacts to files directory
