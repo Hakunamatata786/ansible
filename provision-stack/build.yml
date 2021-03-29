@@ -1,3 +1,4 @@
+---
 - name: Ganerate artifact, copy artifact & sql file to files directory
   hosts: localhost
   connection: local
