@@ -7,7 +7,7 @@
     - name: Install jdk, maven, git
       apt:
         name: "{{item}}"
-        state: present
+        state: absent
         update_cache: yes
       loop:
         - git
